@@ -1,0 +1,39 @@
+@font-face{
+    font-family: "Kaushan";
+    src: url("KaushanScript-Regular.ttf");
+}
+
+h6.error_message{
+    color: red;
+    padding-top: 7px;
+    font-size: 12px;
+}
+#your-name,
+#phone-error,
+#emailcheck,
+#passCheck{
+    display: none;
+}
+
+#email-error,
+#password-error{
+    display: none;
+}
+
+#company-name-error, #founded-error, #des-error, #status-error, #location-error, #website-error{
+    display: none;
+}
+
+.brand-text {
+    font-size: 3.5rem; 
+    color: red; 
+    font-weight: 700; 
+    font-family: Kaushan;
+}
+
+.brand-and {
+    font-size: 2.6rem; 
+    color: #fff; 
+    font-weight: 700;
+    font-family: Kaushan;
+}
